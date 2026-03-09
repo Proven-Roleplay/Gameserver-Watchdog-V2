@@ -1,16 +1,17 @@
 <p align="center">
   <img src="assets/banner.png" width="100%">
 </p>
-![PowerShell](https://img.shields.io/badge/PowerShell-Automation-blue)
-![Windows](https://img.shields.io/badge/Platform-Windows-green)
-![Rust](https://img.shields.io/badge/Rust-Supported-orange)
-![FiveM](https://img.shields.io/badge/FiveM-Supported-red)
 
 # 🎮 Game Server Watchdog v2
 
 ### Automated Monitoring System for FiveM & Rust Servers
 
 **Created by Majestic44**
+
+![PowerShell](https://img.shields.io/badge/PowerShell-Automation-blue)
+![Windows](https://img.shields.io/badge/Platform-Windows-green)
+![Rust](https://img.shields.io/badge/Rust-Supported-orange)
+![FiveM](https://img.shields.io/badge/FiveM-Supported-red)
 
 ---
 
