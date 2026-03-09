@@ -1,0 +1,38 @@
+{
+  "BaseDir": "C:\\GameServers",
+  "BootDelaySeconds": 60,
+  "CheckIntervalSeconds": 30,
+  "RestartWindowMinutes": 15,
+  "MaxRestartsInWindow": 5,
+  "CooldownMinutes": 15,
+  "LogRetentionDays": 14,
+  "Discord": {
+    "Enabled": false,
+    "WebhookUrl": "PASTE_DISCORD_WEBHOOK_URL_HERE",
+    "Username": "Game Server Watchdog"
+  },
+  "RustAutoUpdate": {
+    "Enabled": true,
+    "SteamCmdPath": "C:\\GameServers\\SteamCMD\\steamcmd.exe",
+    "AppId": 258550,
+    "InstallDir": "C:\\GameServers\\Rust",
+    "UpdateIntervalHours": 6,
+    "OnlyUpdateWhenOffline": true
+  },
+  "FiveM": {
+    "Enabled": true,
+    "Name": "FiveM",
+    "ProcessName": "FXServer",
+    "StartScript": "C:\\GameServers\\FiveM\\start-fivem.bat",
+    "WorkingDirectory": "C:\\GameServers\\FiveM",
+    "StartGraceSeconds": 12
+  },
+  "Rust": {
+    "Enabled": true,
+    "Name": "Rust",
+    "ProcessName": "RustDedicated",
+    "StartScript": "C:\\GameServers\\Rust\\start-rust.bat",
+    "WorkingDirectory": "C:\\GameServers\\Rust",
+    "StartGraceSeconds": 12
+  }
+}
